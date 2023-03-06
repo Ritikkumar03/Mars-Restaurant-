@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/form.css"> -->
+</head>
+<body>
+  <nav>
+    <div class="color logo">
+      
+    </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="order.html">Order Now!</a></li>
+      <li><a href="form.html">Form</a></li>
+      <li><a href="#">Connect to Wallet</a></li>
+    </ul>
+    
+    
+    <button class="color login-button signup">Login with Google</button>
+    <button class="color login-button">Sign Up</button>
+  </nav>
+</body>
+<body>
+  <div class="color color" id="form-container">
+    <form id="mcq-form">
+  <div id="question1" class="question">
+    <h2>Question 1:</h2>
+    <p class="font">What is the capital of France?</p>
+    <label>
+      <input type="radio" name="q1" value="0" />
+      Paris
+    </label>
+    <br />
+    <label>
+      <input type="radio" name="q1" value="1" />
+      London
+    </label>
+    <br />
+    <label>
+      <input type="radio" name="q1" value="2" />
+      Berlin
+    </label>
+  </div>
+  <div id="question2" class="question hidden">
+    <h2>Question 2:</h2>
+    <p class="font">What is the largest ocean in the world?</p>
+    <label>
+      <input type="radio" name="q2" value="0" />
+      Pacific
+    </label>
+    <br />
+    <label>
+      <input type="radio" name="q2" value="1" />
+      Atlantic
+    </label>
+    <br />
+    <label>
+      <input type="radio" name="q2" value="2" />
+      Indian
+    </label>
+  </div>
+  <div id="question3" class="question hidden">
+    <h2>Question 3:</h2>
+    <p class="font">What is the largest animal in the world?</p>
+    <label>
+      <input type="radio" name="q3" value="0" />
+      Elephant
+    </label>
+    <br />
+    <label>
+      <input type="radio" name="q3" value="1" />
+      Blue Whale
+    </label>
+    <br />
+    <label>
+      <input type="radio" name="q3" value="2" />
+      Giraffe
+    </label>
+  </div>
+  <div id="question4" class="question hidden">
+    <h2>Question 4:</h2>
+    <p class="font">What is the capital of Japan?</p>
+    <label>
+      <input type="radio" name="q4" value="0" />
+      Tokyo
+    </label>
+    <br />
+    <label>
+      <input type="radio" name="q4" value="1" />
+      Kyoto
+    </label>
+    <br />
+    <label>
+      <input type="radio" name="q4" value="2" />
+      Osaka
+    </label>
+  </div>
+  <div id="question5" class="question hidden">
+    <h2>Question 5:</h2>
+    <p class="font">What is the smallest country in the world by land area?</p>
+    <label>
+      <input type="radio" name="q5" value="0" />
+      Monaco
+    </label>
+    <br />
+    <label>
+      <input type="radio" name="q5" value="1" />
+      Vatican City
+    </label>
+    <br />
+    <label>
+      <input type="radio" name="q5" value="2" />
+      San Marino
+    </label>
+  </div>
+      <div id="buttons">
+        <button type="button" id="prev-btn" disabled>Previous</button>
+        <button type="button" id="next-btn">Next</button>
+        <button type="submit" id="submit-btn" class="hidden">Submit</button>
+      </div>
+    </form>
+  </div>
+  <div>
+    <video autoplay loop muted poster="video/Pexels Videos 3933.mp4" id="video-background">
+      <source src="video/Pexels Videos 3933.mp4" type="video/mp4">
+      <source src="background-video.webm" type="video/webm">
+    </video>
+  </div>
+  
+        <script src="js/form.js"></script>
+    
+</body>
+</html>
